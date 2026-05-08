@@ -1,9 +1,14 @@
 """
 Interactive Ellipsoid Visualization Tool - Streamlit Version
-For studying the relationship between 2D and 3D axis ratios of ellipsoids
+============================================================
+Demonstrates that the projected (observed) axis ratio q_proj = b_proj / a_proj
+is always >= c/a for any projection direction, as proven via the Poincaré
+(Cauchy interlacing) theorem applied to the ellipsoid shape tensor.
+
+See docs/MATH_PROOF.md for the full mathematical derivation.
 
 Usage:
-streamlit run ellipsoid_streamlit_en.py
+    streamlit run app.py
 """
 
 import numpy as np
