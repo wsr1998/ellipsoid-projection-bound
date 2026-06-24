@@ -90,10 +90,12 @@ streamlit run app.py
 
 ```
 ellipsoid-projection-bound/
-├── app.py               # 主 Streamlit 应用
-├── requirements.txt     # Python 依赖
-├── README.md            # 英文文档
-└── README_zh.md         # 中文文档（本文件）
+├── app.py                    # 主 Streamlit 应用
+├── requirements.txt          # Python 依赖
+├── README.md                 # 英文文档
+├── README_zh.md              # 中文文档（本文件）
+└── docs/
+    └── MATH_PROOF.md         # 完整数学证明
 ```
 
 ---

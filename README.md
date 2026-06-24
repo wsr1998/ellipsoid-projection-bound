@@ -90,10 +90,12 @@ The app opens at `http://localhost:8501` by default.
 
 ```
 ellipsoid-projection-bound/
-├── app.py               # Main Streamlit application
-├── requirements.txt     # Python dependencies
-├── README.md            # English documentation (this file)
-└── README_zh.md         # Chinese documentation
+├── app.py                    # Main Streamlit application
+├── requirements.txt          # Python dependencies
+├── README.md                 # English documentation (this file)
+├── README_zh.md              # Chinese documentation
+└── docs/
+    └── MATH_PROOF.md         # Self-contained mathematical proof
 ```
 
 ---
